@@ -1,0 +1,717 @@
+{
+  "version" : "1.0.1",
+  "name" : "spring-boot-complete",
+  "number" : "1639474575912",
+  "buildAgent" : {
+    "name" : "Maven",
+    "version" : "3.6.3"
+  },
+  "agent" : {
+    "name" : "/",
+    "version" : "3.6.3"
+  },
+  "started" : "2021-12-14T10:36:15.907+0100",
+  "durationMillis" : 8748,
+  "vcs" : [ ],
+  "licenseControl" : {
+    "runChecks" : false,
+    "includePublishedArtifacts" : false,
+    "autoDiscover" : false,
+    "licenseViolationsRecipientsList" : "",
+    "scopesList" : ""
+  },
+  "modules" : [ {
+    "properties" : {
+      "spring-integration.version" : "5.5.0",
+      "flyway.version" : "7.7.3",
+      "webjars-hal-browser.version" : "3325375",
+      "spring-restdocs.version" : "2.0.5.RELEASE",
+      "freemarker.version" : "2.3.31",
+      "thymeleaf.version" : "3.0.12.RELEASE",
+      "jakarta-json.version" : "1.1.6",
+      "janino.version" : "3.1.4",
+      "maven-jar-plugin.version" : "3.2.0",
+      "maven-compiler-plugin.version" : "3.8.1",
+      "javax-activation.version" : "1.2.0",
+      "rabbit-amqp-client.version" : "5.12.0",
+      "spring-amqp.version" : "2.3.7",
+      "kafka.version" : "2.7.1",
+      "jboss-transaction-spi.version" : "7.6.1.Final",
+      "maven-war-plugin.version" : "3.3.1",
+      "byte-buddy.version" : "1.10.22",
+      "maven-install-plugin.version" : "2.5.2",
+      "jolokia.version" : "1.6.2",
+      "jetty-reactive-httpclient.version" : "1.1.8",
+      "maven-dependency-plugin.version" : "3.1.2",
+      "httpclient.version" : "4.5.13",
+      "httpclient5.version" : "5.0.4",
+      "jsonassert.version" : "1.5.0",
+      "gson.version" : "2.8.6",
+      "sun-mail.version" : "1.6.7",
+      "jakarta-annotation.version" : "1.3.5",
+      "micrometer.version" : "1.7.0",
+      "rxjava-adapter.version" : "1.2.1",
+      "hibernate.version" : "5.4.31.Final",
+      "mssql-jdbc.version" : "9.2.1.jre8",
+      "snakeyaml.version" : "1.28",
+      "java.version" : "1.8",
+      "okhttp3.version" : "3.14.9",
+      "javax-persistence.version" : "2.2",
+      "liquibase.version" : "4.3.5",
+      "jakarta-ws-rs.version" : "2.1.6",
+      "build-helper-maven-plugin.version" : "3.2.0",
+      "mockito.version" : "3.9.0",
+      "infinispan.version" : "12.1.3.Final",
+      "nekohtml.version" : "1.9.22",
+      "httpcore.version" : "4.4.14",
+      "maven-assembly-plugin.version" : "3.3.0",
+      "lettuce.version" : "6.1.2.RELEASE",
+      "jakarta-servlet.version" : "4.0.4",
+      "thymeleaf-extras-java8time.version" : "3.0.4.RELEASE",
+      "undertow.version" : "2.2.7.Final",
+      "mariadb.version" : "2.7.3",
+      "selenium-htmlunit.version" : "2.49.1",
+      "thymeleaf-extras-data-attribute.version" : "2.0.1",
+      "ehcache3.version" : "3.9.3",
+      "jakarta-xml-bind.version" : "2.3.3",
+      "commons-dbcp2.version" : "2.8.0",
+      "kotlin.version" : "1.5.0",
+      "wsdl4j.version" : "1.6.3",
+      "mongodb.version" : "4.2.3",
+      "tomcat.version" : "9.0.46",
+      "sendgrid.version" : "4.7.2",
+      "glassfish-jaxb.version" : "2.3.4",
+      "spring-ws.version" : "3.1.1",
+      "commons-lang3.version" : "3.12.0",
+      "junit.version" : "4.13.2",
+      "jetty-el.version" : "9.0.29",
+      "javax-transaction.version" : "1.3",
+      "maven.compiler.source" : "1.8",
+      "db2-jdbc.version" : "11.5.5.0",
+      "reactor-bom.version" : "2020.0.7",
+      "maven-enforcer-plugin.version" : "3.0.0-M3",
+      "postgresql.version" : "42.2.20",
+      "jstl.version" : "1.2",
+      "quartz.version" : "2.3.2",
+      "javax-money.version" : "1.1",
+      "reactive-streams.version" : "1.0.3",
+      "spring-hateoas.version" : "1.3.1",
+      "jmustache.version" : "1.15",
+      "querydsl.version" : "4.4.0",
+      "appengine-sdk.version" : "1.9.88",
+      "thymeleaf-layout-dialect.version" : "2.5.3",
+      "hamcrest.version" : "2.2",
+      "commons-pool.version" : "1.6",
+      "jakarta-jms.version" : "2.0.3",
+      "jakarta-transaction.version" : "1.3.3",
+      "maven-help-plugin.version" : "3.2.0",
+      "mimepull.version" : "1.9.14",
+      "jakarta-validation.version" : "2.0.2",
+      "json-path.version" : "2.5.0",
+      "jaxen.version" : "1.2.0",
+      "johnzon.version" : "1.2.11",
+      "oracle-database.version" : "21.1.0.0",
+      "spring-batch.version" : "4.3.3",
+      "couchbase-client.version" : "3.1.5",
+      "derby.version" : "10.14.2.0",
+      "javax-jsonb.version" : "1.0",
+      "rxjava2.version" : "2.2.21",
+      "cassandra-driver.version" : "4.11.1",
+      "javax-jaxws.version" : "2.3.1",
+      "xml-maven-plugin.version" : "1.0.2",
+      "json-smart.version" : "2.4.7",
+      "xmlunit2.version" : "2.8.2",
+      "jakarta-mail.version" : "1.6.7",
+      "javax-websocket.version" : "1.1",
+      "slf4j.version" : "1.7.30",
+      "r2dbc-bom.version" : "Arabba-SR10",
+      "commons-codec.version" : "1.15",
+      "solr.version" : "8.8.2",
+      "saaj-impl.version" : "1.5.3",
+      "caffeine.version" : "2.9.1",
+      "nimbus-jose-jwt.version" : "9.8.1",
+      "hikaricp.version" : "4.0.3",
+      "netty-tcnative.version" : "2.0.39.Final",
+      "maven-shade-plugin.version" : "3.2.4",
+      "h2.version" : "1.4.200",
+      "jakarta-json-bind.version" : "1.0.2",
+      "pooled-jms.version" : "1.2.2",
+      "unboundid-ldapsdk.version" : "4.0.14",
+      "spring-kafka.version" : "2.7.1",
+      "thymeleaf-extras-springsecurity.version" : "3.0.4.RELEASE",
+      "javax-jaxb.version" : "2.3.1",
+      "sqlite-jdbc.version" : "3.34.0",
+      "jakarta-servlet-jsp-jstl.version" : "1.2.7",
+      "jersey.version" : "2.33",
+      "activemq.version" : "5.16.2",
+      "httpasyncclient.version" : "4.1.4",
+      "jtds.version" : "1.3.1",
+      "javax-jms.version" : "2.0.1",
+      "jakarta-websocket.version" : "1.1.2",
+      "spring-security.version" : "5.5.0",
+      "hazelcast.version" : "4.1.3",
+      "hibernate-validator.version" : "6.2.0.Final",
+      "assertj.version" : "3.19.0",
+      "jakarta-xml-soap.version" : "1.4.2",
+      "jdom2.version" : "2.0.6",
+      "atomikos.version" : "4.0.6",
+      "aspectj.version" : "1.9.6",
+      "hsqldb.version" : "2.5.2",
+      "ojdbc.version" : "19.3.0.0",
+      "influxdb-java.version" : "2.21",
+      "webjars-locator-core.version" : "0.46",
+      "project.reporting.outputEncoding" : "UTF-8",
+      "httpcore5.version" : "5.1.1",
+      "lombok.version" : "1.18.20",
+      "maven.compiler.target" : "1.8",
+      "oauth2-oidc-sdk.version" : "9.3.3",
+      "jakarta-xml-ws.version" : "2.3.3",
+      "awaitility.version" : "4.0.3",
+      "commons-pool2.version" : "2.9.0",
+      "jackson-bom.version" : "2.12.3",
+      "embedded-mongo.version" : "3.0.0",
+      "spring-retry.version" : "1.3.1",
+      "spring-ldap.version" : "2.3.4.RELEASE",
+      "dependency-management-plugin.version" : "1.0.11.RELEASE",
+      "maven-invoker-plugin.version" : "3.2.2",
+      "maven-javadoc-plugin.version" : "3.2.0",
+      "maven-antrun-plugin.version" : "1.8",
+      "servlet-api.version" : "4.0.1",
+      "rsocket.version" : "1.1.0",
+      "jakarta-persistence.version" : "2.2.3",
+      "artemis.version" : "2.17.0",
+      "groovy.version" : "3.0.8",
+      "javax-cache.version" : "1.1.1",
+      "logback.version" : "1.2.3",
+      "prometheus-pushgateway.version" : "0.10.0",
+      "versions-maven-plugin.version" : "2.8.1",
+      "jedis.version" : "3.6.0",
+      "resource.delimiter" : "@",
+      "maven-clean-plugin.version" : "3.1.0",
+      "javax-mail.version" : "1.6.2",
+      "javax-json.version" : "1.1.4",
+      "jboss-logging.version" : "3.4.1.Final",
+      "maven-surefire-plugin.version" : "2.22.2",
+      "javax-annotation.version" : "1.3.2",
+      "spring-data-bom.version" : "2021.0.1",
+      "maven-resources-plugin.version" : "3.2.0",
+      "mysql.version" : "8.0.25",
+      "classmate.version" : "1.5.1",
+      "jaybird.version" : "4.0.3.java8",
+      "javax-validation.version" : "2.0.1.Final",
+      "netty.version" : "4.1.65.Final",
+      "antlr2.version" : "2.7.7",
+      "jetty-jsp.version" : "2.2.0.v201112011158",
+      "maven-source-plugin.version" : "3.2.1",
+      "jetty.version" : "9.4.41.v20210516",
+      "rxjava.version" : "1.3.8",
+      "elasticsearch.version" : "7.12.1",
+      "selenium.version" : "3.141.59",
+      "rest-assured.version" : "4.3.3",
+      "glassfish-el.version" : "3.0.3",
+      "project.build.sourceEncoding" : "UTF-8",
+      "maven-deploy-plugin.version" : "2.8.2",
+      "jooq.version" : "3.14.9",
+      "log4j2.version" : "2.14.1",
+      "maven-failsafe-plugin.version" : "2.22.2",
+      "spring-framework.version" : "5.3.7",
+      "dropwizard-metrics.version" : "4.1.21",
+      "git-commit-id-plugin.version" : "4.0.4",
+      "ehcache.version" : "2.10.9.2",
+      "junit-jupiter.version" : "5.7.2",
+      "kotlin-coroutines.version" : "1.5.0",
+      "neo4j-java-driver.version" : "4.2.5",
+      "hazelcast-hibernate5.version" : "2.2.0",
+      "jakarta-activation.version" : "1.2.2",
+      "spring-session-bom.version" : "2021.0.0",
+      "htmlunit.version" : "2.49.1"
+    },
+    "type" : "maven",
+    "id" : "com.example:spring-boot-complete:0.0.1-SNAPSHOT",
+    "repository" : "fvj-maven-snapshot",
+    "artifacts" : [ {
+      "type" : "jar",
+      "sha1" : "cabf9c19f88ffbd756c6415936b1a6a980c72ce4",
+      "md5" : "0685641d6e39fee6e0c2e5c63d42ffaf",
+      "name" : "spring-boot-complete-0.0.1-SNAPSHOT.jar",
+      "path" : "com/example/spring-boot-complete/0.0.1-SNAPSHOT/spring-boot-complete-0.0.1-SNAPSHOT.jar"
+    }, {
+      "type" : "pom",
+      "sha1" : "17de600c9525eb7c929caec418844204432748a9",
+      "md5" : "c534095b51cf5789ec207deef7a15656",
+      "name" : "spring-boot-complete-0.0.1-SNAPSHOT.pom",
+      "path" : "com/example/spring-boot-complete/0.0.1-SNAPSHOT/spring-boot-complete-0.0.1-SNAPSHOT.pom"
+    } ],
+    "dependencies" : [ {
+      "type" : "jar",
+      "sha1" : "a910887c01efcc7d12f3f89a7604d436f26eeb90",
+      "md5" : "a05a7b1382b90abb6578b5dfc128f58a",
+      "id" : "org.springframework.boot:spring-boot-starter:2.5.0",
+      "scopes" : [ "compile" ],
+      "requestedBy" : [ [ "org.springframework.boot:spring-boot-starter-web:2.5.0", "com.example:spring-boot-complete:0.0.1-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "685f832f8c54dd40100f646d61aca88ed9545421",
+      "md5" : "6c31102f6893841654d2f2e4e3cf7f49",
+      "id" : "org.junit.jupiter:junit-jupiter-params:5.7.2",
+      "scopes" : [ "test" ],
+      "requestedBy" : [ [ "org.junit.jupiter:junit-jupiter:5.7.2", "org.springframework.boot:spring-boot-starter-test:2.5.0", "com.example:spring-boot-complete:0.0.1-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "330b3957efdcdebe3550b8e2c5d45a4c25496626",
+      "md5" : "f64caaee7fb1b1101faa7705c8e49b36",
+      "id" : "org.springframework:spring-context:5.3.7",
+      "scopes" : [ "compile" ],
+      "requestedBy" : [ [ "org.springframework:spring-webmvc:5.3.7", "org.springframework.boot:spring-boot-starter-web:2.5.0", "com.example:spring-boot-complete:0.0.1-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "4aad1b62bd347a806fe693c9d67b376a3ad8151c",
+      "md5" : "3e1909ea7e24cb6b82d07f56f899a155",
+      "id" : "org.springframework:spring-core:5.3.7",
+      "scopes" : [ "compile" ],
+      "requestedBy" : [ [ "org.springframework.boot:spring-boot-starter-test:2.5.0", "com.example:spring-boot-complete:0.0.1-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "6c9d5fe2f59da598d9aefc1cfc6528ff3cf32df3",
+      "md5" : "9139a7742b3a752179d233f551b145ae",
+      "id" : "org.skyscreamer:jsonassert:1.5.0",
+      "scopes" : [ "test" ],
+      "requestedBy" : [ [ "org.springframework.boot:spring-boot-starter-test:2.5.0", "com.example:spring-boot-complete:0.0.1-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "e0ac75f1a183f8e6a319a8b03bad1c45d40a2761",
+      "md5" : "f846628807b84c0f827a48ad9f59054d",
+      "id" : "org.springframework.boot:spring-boot-actuator:2.5.0",
+      "scopes" : [ "compile" ],
+      "requestedBy" : [ [ "org.springframework.boot:spring-boot-actuator-autoconfigure:2.5.0", "org.springframework.boot:spring-boot-starter-actuator:2.5.0", "com.example:spring-boot-complete:0.0.1-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "49e6a8f45e77f14ef16f82c0413254ef493b785f",
+      "md5" : "2dc93a914f5ab83682971dc708e9c59f",
+      "id" : "org.springframework:spring-web:5.3.7",
+      "scopes" : [ "compile" ],
+      "requestedBy" : [ [ "org.springframework.boot:spring-boot-starter-web:2.5.0", "com.example:spring-boot-complete:0.0.1-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "22401482ba1c5a1dcd3d33e47295779211b913d8",
+      "md5" : "247e3ce630b1e710e3ea53a64a5b77fc",
+      "id" : "org.springframework.boot:spring-boot-starter-logging:2.5.0",
+      "scopes" : [ "compile" ],
+      "requestedBy" : [ [ "org.springframework.boot:spring-boot-starter:2.5.0", "org.springframework.boot:spring-boot-starter-web:2.5.0", "com.example:spring-boot-complete:0.0.1-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "ccd8bde38bad689737295fa220e1c70680676d72",
+      "md5" : "d9a8e6b989add30b324d4c93467d37e6",
+      "id" : "org.springframework:spring-jcl:5.3.7",
+      "scopes" : [ "compile" ],
+      "requestedBy" : [ [ "org.springframework:spring-core:5.3.7", "org.springframework.boot:spring-boot-starter-test:2.5.0", "com.example:spring-boot-complete:0.0.1-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "28c11eb91f9b6d8e200631d46e20a7f407f2a046",
+      "md5" : "45c9a837c21f68e8c93e85b121e2fb90",
+      "id" : "org.opentest4j:opentest4j:1.2.0",
+      "scopes" : [ "test" ],
+      "requestedBy" : [ [ "org.junit.jupiter:junit-jupiter-api:5.7.2", "org.junit.jupiter:junit-jupiter:5.7.2", "org.springframework.boot:spring-boot-starter-test:2.5.0", "com.example:spring-boot-complete:0.0.1-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "e23e2a03e95237c48b0db4f399099cc9eac1480c",
+      "md5" : "6e17fd14cb4bf69ac32bee2b5ddb7b32",
+      "id" : "org.springframework:spring-test:5.3.7",
+      "scopes" : [ "test" ],
+      "requestedBy" : [ [ "org.springframework.boot:spring-boot-starter-test:2.5.0", "com.example:spring-boot-complete:0.0.1-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "59eb84ee0d616332ff44aba065f3888cf002cd2d",
+      "md5" : "8b165cf58df5f8c2a222f637c0a07c97",
+      "id" : "jakarta.annotation:jakarta.annotation-api:1.3.5",
+      "scopes" : [ "compile" ],
+      "requestedBy" : [ [ "org.springframework.boot:spring-boot-starter:2.5.0", "org.springframework.boot:spring-boot-starter-web:2.5.0", "com.example:spring-boot-complete:0.0.1-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "bc7dc1605f2099dc3c39156b7f62ac889f54fb67",
+      "md5" : "870d86d90b099c5bd53992217cca5f8a",
+      "id" : "io.micrometer:micrometer-core:1.7.0",
+      "scopes" : [ "compile" ],
+      "requestedBy" : [ [ "org.springframework.boot:spring-boot-starter-actuator:2.5.0", "com.example:spring-boot-complete:0.0.1-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "99f53adba383cb1bf7c3862844488574b559621f",
+      "md5" : "1cbb480310fa1987f9db7a3ed7118af7",
+      "id" : "jakarta.activation:jakarta.activation-api:1.2.2",
+      "scopes" : [ "test" ],
+      "requestedBy" : [ [ "jakarta.xml.bind:jakarta.xml.bind-api:2.3.3", "org.springframework.boot:spring-boot-starter-test:2.5.0", "com.example:spring-boot-complete:0.0.1-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "7c4f3c474fb2c041d8028740440937705ebb473a",
+      "md5" : "64f7a68f931aed8e5ad8243470440f0b",
+      "id" : "ch.qos.logback:logback-classic:1.2.3",
+      "scopes" : [ "compile" ],
+      "requestedBy" : [ [ "org.springframework.boot:spring-boot-starter-logging:2.5.0", "org.springframework.boot:spring-boot-starter:2.5.0", "org.springframework.boot:spring-boot-starter-web:2.5.0", "com.example:spring-boot-complete:0.0.1-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "aa1d93f2e508b6a1001bba9ad2a570a574f6ed64",
+      "md5" : "e3d2870048f2a9e92b3f78d6833c4ac1",
+      "id" : "org.apache.tomcat.embed:tomcat-embed-core:9.0.46",
+      "scopes" : [ "compile" ],
+      "requestedBy" : [ [ "org.springframework.boot:spring-boot-starter-tomcat:2.5.0", "org.springframework.boot:spring-boot-starter-web:2.5.0", "com.example:spring-boot-complete:0.0.1-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "deb23fe2a7f2b773e18ced2b50d4acc1df8fa366",
+      "md5" : "2f2db39bffd7e5ec8648977a740b870f",
+      "id" : "com.fasterxml.jackson.core:jackson-core:2.12.3",
+      "scopes" : [ "compile" ],
+      "requestedBy" : [ [ "com.fasterxml.jackson.core:jackson-databind:2.12.3", "org.springframework.boot:spring-boot-starter-json:2.5.0", "org.springframework.boot:spring-boot-starter-web:2.5.0", "com.example:spring-boot-complete:0.0.1-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "2573770b46b8a199ed5f6b0f96fb99e468bfe891",
+      "md5" : "06839674fdfa603d734987401d39abe3",
+      "id" : "org.junit.platform:junit-platform-engine:1.7.2",
+      "scopes" : [ "test" ],
+      "requestedBy" : [ [ "org.junit.jupiter:junit-jupiter-engine:5.7.2", "org.junit.jupiter:junit-jupiter:5.7.2", "org.springframework.boot:spring-boot-starter-test:2.5.0", "com.example:spring-boot-complete:0.0.1-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "69a1e4fb339b8f4020481d68067114976e3a8515",
+      "md5" : "84373bed533412a596fc292e3d4d3ce0",
+      "id" : "org.apache.tomcat.embed:tomcat-embed-el:9.0.46",
+      "scopes" : [ "compile" ],
+      "requestedBy" : [ [ "org.springframework.boot:spring-boot-starter-tomcat:2.5.0", "org.springframework.boot:spring-boot-starter-web:2.5.0", "com.example:spring-boot-complete:0.0.1-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "3b93aeb708d3319522fb21409ec314ad4d2ef9b3",
+      "md5" : "f3dc3e286739ef27c5df4d1b1d816693",
+      "id" : "org.springframework.boot:spring-boot-starter-tomcat:2.5.0",
+      "scopes" : [ "compile" ],
+      "requestedBy" : [ [ "org.springframework.boot:spring-boot-starter-web:2.5.0", "com.example:spring-boot-complete:0.0.1-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "8fc47befa38bdaa2f2b8f421d8532f03005e2851",
+      "md5" : "4df8426286f18da23c3c1af16b520d51",
+      "id" : "org.springframework.boot:spring-boot-starter-actuator:2.5.0",
+      "scopes" : [ "compile" ],
+      "requestedBy" : [ [ "com.example:spring-boot-complete:0.0.1-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "41956882243e86f8260f649ebdd96597a2ff52a9",
+      "md5" : "1c385e45d9ec77130be60a19647b229d",
+      "id" : "org.springframework.boot:spring-boot-actuator-autoconfigure:2.5.0",
+      "scopes" : [ "compile" ],
+      "requestedBy" : [ [ "org.springframework.boot:spring-boot-starter-actuator:2.5.0", "com.example:spring-boot-complete:0.0.1-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "f4b4079732a9c537983324cfa4e46655f21d2c56",
+      "md5" : "8398ea26631b10fc9f9ac674de0d37d3",
+      "id" : "org.junit.jupiter:junit-jupiter-api:5.7.2",
+      "scopes" : [ "test" ],
+      "requestedBy" : [ [ "org.junit.jupiter:junit-jupiter:5.7.2", "org.springframework.boot:spring-boot-starter-test:2.5.0", "com.example:spring-boot-complete:0.0.1-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "b7573430aea743b26434b44f4f46272af613e660",
+      "md5" : "7be1c7a292d83b3eafb38f39048c3fb7",
+      "id" : "org.mockito:mockito-core:3.9.0",
+      "scopes" : [ "test" ],
+      "requestedBy" : [ [ "org.springframework.boot:spring-boot-starter-test:2.5.0", "com.example:spring-boot-complete:0.0.1-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "b5a4b6d16ab13e34a88fae84c35cd5d68cac922c",
+      "md5" : "f8be00da99bc4ab64c79ab1e2be7cb7c",
+      "id" : "org.slf4j:slf4j-api:1.7.30",
+      "scopes" : [ "compile" ],
+      "requestedBy" : [ [ "com.jayway.jsonpath:json-path:2.5.0", "org.springframework.boot:spring-boot-starter-test:2.5.0", "com.example:spring-boot-complete:0.0.1-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "3970cfc505e6657ca60f3aa57c849f6043000d7a",
+      "md5" : "53cb6c796eb91346af5edb178c42b39b",
+      "id" : "net.minidev:accessors-smart:2.4.7",
+      "scopes" : [ "test" ],
+      "requestedBy" : [ [ "net.minidev:json-smart:2.4.7", "com.jayway.jsonpath:json-path:2.5.0", "org.springframework.boot:spring-boot-starter-test:2.5.0", "com.example:spring-boot-complete:0.0.1-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "b01df6b71a882b9fde5a608a26e641cd399a4d83",
+      "md5" : "822e73efe0527a22e71b6f68adf55576",
+      "id" : "net.bytebuddy:byte-buddy-agent:1.10.22",
+      "scopes" : [ "test" ],
+      "requestedBy" : [ [ "org.mockito:mockito-core:3.9.0", "org.springframework.boot:spring-boot-starter-test:2.5.0", "com.example:spring-boot-complete:0.0.1-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "48e3b9cfc10752fba3521d6511f4165bea951801",
+      "md5" : "61286918ca0192e9f87d1358aef718dd",
+      "id" : "jakarta.xml.bind:jakarta.xml.bind-api:2.3.3",
+      "scopes" : [ "test" ],
+      "requestedBy" : [ [ "org.springframework.boot:spring-boot-starter-test:2.5.0", "com.example:spring-boot-complete:0.0.1-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "ce8a86a3f50a4304749828ce68e7478cafbc8039",
+      "md5" : "544e7bea87bd66fbd3dbb4ec86c10690",
+      "id" : "org.apache.logging.log4j:log4j-to-slf4j:2.14.1",
+      "scopes" : [ "compile" ],
+      "requestedBy" : [ [ "org.springframework.boot:spring-boot-starter-logging:2.5.0", "org.springframework.boot:spring-boot-starter:2.5.0", "org.springframework.boot:spring-boot-starter-web:2.5.0", "com.example:spring-boot-complete:0.0.1-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "e85e7c3df9353cf7f6b9e766ac61c0c313f9a57f",
+      "md5" : "f837b88513ecfd378b296e6d4aab612f",
+      "id" : "org.apache.tomcat.embed:tomcat-embed-websocket:9.0.46",
+      "scopes" : [ "compile" ],
+      "requestedBy" : [ [ "org.springframework.boot:spring-boot-starter-tomcat:2.5.0", "org.springframework.boot:spring-boot-starter-web:2.5.0", "com.example:spring-boot-complete:0.0.1-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "70ea0e9925c3b300fb4509c425d53d477a033e57",
+      "md5" : "a33008f994b98331935793d66a620c41",
+      "id" : "org.springframework.boot:spring-boot-test-autoconfigure:2.5.0",
+      "scopes" : [ "test" ],
+      "requestedBy" : [ [ "org.springframework.boot:spring-boot-starter-test:2.5.0", "com.example:spring-boot-complete:0.0.1-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "7cae037c3014350c923776548e71c9feb7a69259",
+      "md5" : "0fac676adf839a85e0ca7a3df05cb28b",
+      "id" : "org.yaml:snakeyaml:1.28",
+      "scopes" : [ "compile" ],
+      "requestedBy" : [ [ "org.springframework.boot:spring-boot-starter:2.5.0", "org.springframework.boot:spring-boot-starter-web:2.5.0", "com.example:spring-boot-complete:0.0.1-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "d58bebff8cbf70ff52b59208586095f467656c30",
+      "md5" : "f2c78cb93d70dc5dea0c50f36ace09c1",
+      "id" : "org.slf4j:jul-to-slf4j:1.7.30",
+      "scopes" : [ "compile" ],
+      "requestedBy" : [ [ "org.springframework.boot:spring-boot-starter-logging:2.5.0", "org.springframework.boot:spring-boot-starter:2.5.0", "org.springframework.boot:spring-boot-starter-web:2.5.0", "com.example:spring-boot-complete:0.0.1-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "77424ea087313312e308dae5ff8445608aabb5e1",
+      "md5" : "79b262bec3232cb9da841b63b3797f56",
+      "id" : "com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.12.3",
+      "scopes" : [ "compile" ],
+      "requestedBy" : [ [ "org.springframework.boot:spring-boot-starter-json:2.5.0", "org.springframework.boot:spring-boot-starter-web:2.5.0", "com.example:spring-boot-complete:0.0.1-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "f64cb5690b85e68d5e1e6c6152bfb6e3840a452d",
+      "md5" : "18548accac014c82ed37f5eaa9940413",
+      "id" : "org.assertj:assertj-core:3.19.0",
+      "scopes" : [ "test" ],
+      "requestedBy" : [ [ "org.springframework.boot:spring-boot-starter-test:2.5.0", "com.example:spring-boot-complete:0.0.1-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "7275513412694a1aafd08c0287f48469fa0e6e17",
+      "md5" : "2e522914770d1d39b0a8aa31cbbaa798",
+      "id" : "com.fasterxml.jackson.core:jackson-annotations:2.12.3",
+      "scopes" : [ "compile" ],
+      "requestedBy" : [ [ "com.fasterxml.jackson.core:jackson-databind:2.12.3", "org.springframework.boot:spring-boot-starter-json:2.5.0", "org.springframework.boot:spring-boot-starter-web:2.5.0", "com.example:spring-boot-complete:0.0.1-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "53ecfc751fd08d6dab2301c06e8e3de74d85185a",
+      "md5" : "d855e3b93cf00a64ea73418f084229b8",
+      "id" : "org.springframework.boot:spring-boot-test:2.5.0",
+      "scopes" : [ "test" ],
+      "requestedBy" : [ [ "org.springframework.boot:spring-boot-starter-test:2.5.0", "com.example:spring-boot-complete:0.0.1-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "62faa742964a9d8dab8fdb4a0eab7b01441c171f",
+      "md5" : "e73dde0ebe30eff6725c9388d1dcba0c",
+      "id" : "org.junit.jupiter:junit-jupiter:5.7.2",
+      "scopes" : [ "test" ],
+      "requestedBy" : [ [ "org.springframework.boot:spring-boot-starter-test:2.5.0", "com.example:spring-boot-complete:0.0.1-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "8b1eacd7aaa12f7d173a2f0836d28bd0c1b098fe",
+      "md5" : "833fb3aa90fd443789b6af5e5eb132b2",
+      "id" : "org.springframework:spring-beans:5.3.7",
+      "scopes" : [ "compile" ],
+      "requestedBy" : [ [ "org.springframework:spring-web:5.3.7", "org.springframework.boot:spring-boot-starter-web:2.5.0", "com.example:spring-boot-complete:0.0.1-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "a99500cf6eea30535eeac6be73899d048f8d12a8",
+      "md5" : "54b9f5d15e4877a4ea4cf9ec48e07afa",
+      "id" : "org.ow2.asm:asm:9.1",
+      "scopes" : [ "test" ],
+      "requestedBy" : [ [ "net.minidev:accessors-smart:2.4.7", "net.minidev:json-smart:2.4.7", "com.jayway.jsonpath:json-path:2.5.0", "org.springframework.boot:spring-boot-starter-test:2.5.0", "com.example:spring-boot-complete:0.0.1-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "592a882beaf1bd57b8fe960b937a2706b090b4d7",
+      "md5" : "40c93fe52d3e94adf67abc5310807af0",
+      "id" : "com.fasterxml.jackson.module:jackson-module-parameter-names:2.12.3",
+      "scopes" : [ "compile" ],
+      "requestedBy" : [ [ "org.springframework.boot:spring-boot-starter-json:2.5.0", "org.springframework.boot:spring-boot-starter-web:2.5.0", "com.example:spring-boot-complete:0.0.1-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "e87ef5d8917500b489ebd1d76f01f9f859dd143e",
+      "md5" : "e1416c453872f11a9117dba3c2b7a6b9",
+      "id" : "org.springframework.boot:spring-boot-starter-test:2.5.0",
+      "scopes" : [ "test" ],
+      "requestedBy" : [ [ "com.example:spring-boot-complete:0.0.1-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "864344400c3d4d92dfeb0a305dc87d953677c03c",
+      "md5" : "841fc80c6edff60d947a3872a2db4d45",
+      "id" : "ch.qos.logback:logback-core:1.2.3",
+      "scopes" : [ "compile" ],
+      "requestedBy" : [ [ "ch.qos.logback:logback-classic:1.2.3", "org.springframework.boot:spring-boot-starter-logging:2.5.0", "org.springframework.boot:spring-boot-starter:2.5.0", "org.springframework.boot:spring-boot-starter-web:2.5.0", "com.example:spring-boot-complete:0.0.1-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "3823529849c1b848e9623bbccc7c2dc7c3d51f93",
+      "md5" : "22f5d32aafdba8f8a9d065d32407dfc4",
+      "id" : "org.springframework.boot:spring-boot-starter-json:2.5.0",
+      "scopes" : [ "compile" ],
+      "requestedBy" : [ [ "org.springframework.boot:spring-boot-starter-web:2.5.0", "com.example:spring-boot-complete:0.0.1-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "13351fce0a604957cd6a41478ebb54a953a0245e",
+      "md5" : "a7f7a73ab8888a88e2bdc6b90c04d4d5",
+      "id" : "org.springframework:spring-expression:5.3.7",
+      "scopes" : [ "compile" ],
+      "requestedBy" : [ [ "org.springframework:spring-webmvc:5.3.7", "org.springframework.boot:spring-boot-starter-web:2.5.0", "com.example:spring-boot-complete:0.0.1-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "fc9dff4bb36d627bdc553de77e1f17efd790876c",
+      "md5" : "944805817b648e558ed6be6fc7f054f3",
+      "id" : "org.apiguardian:apiguardian-api:1.1.0",
+      "scopes" : [ "test" ],
+      "requestedBy" : [ [ "org.junit.jupiter:junit-jupiter-api:5.7.2", "org.junit.jupiter:junit-jupiter:5.7.2", "org.springframework.boot:spring-boot-starter-test:2.5.0", "com.example:spring-boot-complete:0.0.1-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "8d7f4c1530c07c54930935f3da85f48b83b3c109",
+      "md5" : "f04005088df03f6efac608a7a5d53cd1",
+      "id" : "net.minidev:json-smart:2.4.7",
+      "scopes" : [ "test" ],
+      "requestedBy" : [ [ "com.jayway.jsonpath:json-path:2.5.0", "org.springframework.boot:spring-boot-starter-test:2.5.0", "com.example:spring-boot-complete:0.0.1-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "871745ab6af5a269411ea3c1f99ced82ed079436",
+      "md5" : "598771b4557f809a990b123cf963bdaa",
+      "id" : "org.mockito:mockito-junit-jupiter:3.9.0",
+      "scopes" : [ "test" ],
+      "requestedBy" : [ [ "org.springframework.boot:spring-boot-starter-test:2.5.0", "com.example:spring-boot-complete:0.0.1-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "9415680a889f00b8205a094c5c487bc69dc7077d",
+      "md5" : "7cb8e985fc3e25c7664ac6d646e2e89a",
+      "id" : "org.junit.jupiter:junit-jupiter-engine:5.7.2",
+      "scopes" : [ "test" ],
+      "requestedBy" : [ [ "org.junit.jupiter:junit-jupiter:5.7.2", "org.springframework.boot:spring-boot-starter-test:2.5.0", "com.example:spring-boot-complete:0.0.1-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "f69c636438dcf19c49960c1fe8901320ab85f989",
+      "md5" : "17a02fc1a2205dc41e76dbdc91f0cb41",
+      "id" : "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.12.3",
+      "scopes" : [ "compile" ],
+      "requestedBy" : [ [ "org.springframework.boot:spring-boot-starter-json:2.5.0", "org.springframework.boot:spring-boot-starter-web:2.5.0", "com.example:spring-boot-complete:0.0.1-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "b86edd2455f8c4399068c999beb9ea2a9e7f2047",
+      "md5" : "1e3e891680357423f22de03ea0de491c",
+      "id" : "org.springframework:spring-aop:5.3.7",
+      "scopes" : [ "compile" ],
+      "requestedBy" : [ [ "org.springframework:spring-webmvc:5.3.7", "org.springframework.boot:spring-boot-starter-web:2.5.0", "com.example:spring-boot-complete:0.0.1-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "64c7bbc941c70895621ed613f38dc66b73ea9341",
+      "md5" : "4536900c1ead8817e84dbafd18683f88",
+      "id" : "org.springframework.boot:spring-boot-autoconfigure:2.5.0",
+      "scopes" : [ "compile" ],
+      "requestedBy" : [ [ "org.springframework.boot:spring-boot-starter:2.5.0", "org.springframework.boot:spring-boot-starter-web:2.5.0", "com.example:spring-boot-complete:0.0.1-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "ef45d7e2cd1c600d279704f492ed5ce2ceb6cdb5",
+      "md5" : "8307313c20c0b9417cf5f60b2cda7436",
+      "id" : "net.bytebuddy:byte-buddy:1.10.22",
+      "scopes" : [ "test" ],
+      "requestedBy" : [ [ "org.mockito:mockito-core:3.9.0", "org.springframework.boot:spring-boot-starter-test:2.5.0", "com.example:spring-boot-complete:0.0.1-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "1820c0968dba3a11a1b30669bb1f01978a91dedc",
+      "md5" : "10b47e837f271d0662f28780e60388e8",
+      "id" : "org.hamcrest:hamcrest:2.2",
+      "scopes" : [ "test" ],
+      "requestedBy" : [ [ "org.springframework.boot:spring-boot-starter-test:2.5.0", "com.example:spring-boot-complete:0.0.1-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "3103486844ed786b6ba420971ad137658a2da803",
+      "md5" : "415b65ab680e8c31ec360cee329e9f04",
+      "id" : "org.springframework.boot:spring-boot-starter-web:2.5.0",
+      "scopes" : [ "compile" ],
+      "requestedBy" : [ [ "com.example:spring-boot-complete:0.0.1-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "34adfea6c13fc4a996cf38cdad80800ce850d198",
+      "md5" : "915465d94cb76d01639ac478d105be3c",
+      "id" : "org.junit.platform:junit-platform-commons:1.7.2",
+      "scopes" : [ "test" ],
+      "requestedBy" : [ [ "org.junit.jupiter:junit-jupiter-api:5.7.2", "org.junit.jupiter:junit-jupiter:5.7.2", "org.springframework.boot:spring-boot-starter-test:2.5.0", "com.example:spring-boot-complete:0.0.1-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "7fadf57620c8b8abdf7519533e5527367cb51f09",
+      "md5" : "5c1ee20481a06561af295034ea89c4b4",
+      "id" : "org.objenesis:objenesis:3.2",
+      "scopes" : [ "test" ],
+      "requestedBy" : [ [ "org.mockito:mockito-core:3.9.0", "org.springframework.boot:spring-boot-starter-test:2.5.0", "com.example:spring-boot-complete:0.0.1-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "cd8858fbbde69f46bce8db1152c18a43328aae78",
+      "md5" : "6f31a3b90c3eb09fb0dc0aef155a001c",
+      "id" : "org.apache.logging.log4j:log4j-api:2.14.1",
+      "scopes" : [ "compile" ],
+      "requestedBy" : [ [ "org.apache.logging.log4j:log4j-to-slf4j:2.14.1", "org.springframework.boot:spring-boot-starter-logging:2.5.0", "org.springframework.boot:spring-boot-starter:2.5.0", "org.springframework.boot:spring-boot-starter-web:2.5.0", "com.example:spring-boot-complete:0.0.1-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "769c0b82cb2421c8256300e907298a9410a2a3d3",
+      "md5" : "2ad12e1ef7614cecfb0483fa9ac6da73",
+      "id" : "org.latencyutils:LatencyUtils:2.0.3",
+      "scopes" : [ "runtime" ],
+      "requestedBy" : [ [ "io.micrometer:micrometer-core:1.7.0", "org.springframework.boot:spring-boot-starter-actuator:2.5.0", "com.example:spring-boot-complete:0.0.1-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "6eb7552156e0d517ae80cc2247be1427c8d90452",
+      "md5" : "4b1acf3448b750cb485da7e37384fcd8",
+      "id" : "org.hdrhistogram:HdrHistogram:2.1.12",
+      "scopes" : [ "compile" ],
+      "requestedBy" : [ [ "io.micrometer:micrometer-core:1.7.0", "org.springframework.boot:spring-boot-starter-actuator:2.5.0", "com.example:spring-boot-complete:0.0.1-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "8437c7a572177a34607abdaef2f6b8088488f5c0",
+      "md5" : "50ad2f9f11ea3001ff873d316c480443",
+      "id" : "org.springframework:spring-webmvc:5.3.7",
+      "scopes" : [ "compile" ],
+      "requestedBy" : [ [ "org.springframework.boot:spring-boot-starter-web:2.5.0", "com.example:spring-boot-complete:0.0.1-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "8e4e46b87afaaf9b6cfb8de778e473cf7aeb087f",
+      "md5" : "0315ffe907021ecedad74d3110dc25c5",
+      "id" : "org.xmlunit:xmlunit-core:2.8.2",
+      "scopes" : [ "test" ],
+      "requestedBy" : [ [ "org.springframework.boot:spring-boot-starter-test:2.5.0", "com.example:spring-boot-complete:0.0.1-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "fa26d351fe62a6a17f5cda1287c1c6110dec413f",
+      "md5" : "10612241a9cc269501a7a2b8a984b949",
+      "id" : "com.vaadin.external.google:android-json:0.0.20131108.vaadin1",
+      "scopes" : [ "test" ],
+      "requestedBy" : [ [ "org.skyscreamer:jsonassert:1.5.0", "org.springframework.boot:spring-boot-starter-test:2.5.0", "com.example:spring-boot-complete:0.0.1-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "c35ef29095125b51638d19120f63e2b56eff20e9",
+      "md5" : "c16241d78783e2e2b93429afb4c783aa",
+      "id" : "com.jayway.jsonpath:json-path:2.5.0",
+      "scopes" : [ "test" ],
+      "requestedBy" : [ [ "org.springframework.boot:spring-boot-starter-test:2.5.0", "com.example:spring-boot-complete:0.0.1-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "d6153f8fc60c479ab0f9efb35c034526436a4953",
+      "md5" : "4e821fbfd2d3034ae84735b564c30fed",
+      "id" : "com.fasterxml.jackson.core:jackson-databind:2.12.3",
+      "scopes" : [ "compile" ],
+      "requestedBy" : [ [ "org.springframework.boot:spring-boot-starter-json:2.5.0", "org.springframework.boot:spring-boot-starter-web:2.5.0", "com.example:spring-boot-complete:0.0.1-SNAPSHOT" ] ]
+    }, {
+      "type" : "jar",
+      "sha1" : "b07513e04ad906ea69ef84293a123cdb83828f06",
+      "md5" : "7db6bc30dd57dd9485458117f603a739",
+      "id" : "org.springframework.boot:spring-boot:2.5.0",
+      "scopes" : [ "compile" ],
+      "requestedBy" : [ [ "org.springframework.boot:spring-boot-starter:2.5.0", "org.springframework.boot:spring-boot-starter-web:2.5.0", "com.example:spring-boot-complete:0.0.1-SNAPSHOT" ] ]
+    } ]
+  } ],
+  "governance" : {
+    "blackDuckProperties" : {
+      "runChecks" : false,
+      "includePublishedArtifacts" : false,
+      "autoCreateMissingComponentRequests" : false,
+      "autoDiscardStaleComponentRequests" : false
+    }
+  }
+}
