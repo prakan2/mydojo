@@ -24,10 +24,10 @@
 - [Jenkins Integration](https://jfrog.com/knowledge-base/how-to-build-and-deploy-artifacts-using-jfrog-cli-in-a-jenkins-pipeline)
 - [Authentication in Pipelines](https://jfrog.com/knowledge-base/how-to-use-access-tokens-in-your-ci-environment)
 ### Cool Features
-- https://jfrog.com/knowledge-base/artifactory-how-to-test-webhooks-in-artifactory-and-check-its-request-payload/
-- https://registry.terraform.io/providers/jfrog/artifactory/latest/docs
-- https://jfrog.com/blog/get-peace-of-mind-about-security-when-deploying-containers-from-docker-desktop/ 
+- [Using Webhooks](https://jfrog.com/knowledge-base/artifactory-how-to-test-webhooks-in-artifactory-and-check-its-request-payload)
+- [Terraform for Artifactory](https://registry.terraform.io/providers/jfrog/artifactory/latest/docs)
+- [Integration in Docker Desktop](https://jfrog.com/blog/get-peace-of-mind-about-security-when-deploying-containers-from-docker-desktop)
 ### Follow up with Frogbot
-- https://github.com/jfrog/frogbot/blob/master/README.md 
-- https://www.youtube.com/watch?v=dEwxa4cF7BY
-- https://jfrog.com/blog/secure-your-git-repository-with-frogbot-the-git-bot/
+- [Github Repo](https://github.com/jfrog/frogbot/blob/master/README.md)
+- [Video](https://www.youtube.com/watch?v=dEwxa4cF7BY)
+- [Blog](https://jfrog.com/blog/secure-your-git-repository-with-frogbot-the-git-bot)
