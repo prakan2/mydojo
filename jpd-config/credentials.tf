@@ -9,7 +9,7 @@ variable "artifactory_access_token" {
   type = string
   default = "cmVmdGtuOjAxOjE2ODk2OTcxMDc6cTM2Q0ZZcTVmRjRXQVN2QnJMN1I5NWdPMlRl"
 }
-# Please define a password for the non-admin user you will be working with
+# Please define a password for the non-admin user you will be working with JFrog CLI
 variable "developer_pw" {
   type = string
   default = "MyV3ry$3cr3tP@$$w0rd"
