@@ -17,12 +17,12 @@
 - [Best Practice - Build Promotion](https://jfrog.com/knowledge-base/how-does-build-promotion-work/)
 ### Understand Repositories
 #### Remote Repos
-- https://jfrog.com/blog/jfrog-docker-partnership-for-dockerhub/
+- [Unlimited Access to Docker Hub](https://jfrog.com/blog/jfrog-docker-partnership-for-dockerhub/)
 #### Virtual Repos
-- https://jfrog.com/blog/going-beyond-exclude-patterns-safe-repositories-with-priority-resolution/
+- [Protect against dependency confusion](https://jfrog.com/blog/going-beyond-exclude-patterns-safe-repositories-with-priority-resolution)
 ### Understand how to integrate Jenkins Pipelines with Artifactory
-- https://jfrog.com/knowledge-base/how-to-build-and-deploy-artifacts-using-jfrog-cli-in-a-jenkins-pipeline/
-- https://jfrog.com/knowledge-base/how-to-use-access-tokens-in-your-ci-environment/
+- [Jenkins Integration](https://jfrog.com/knowledge-base/how-to-build-and-deploy-artifacts-using-jfrog-cli-in-a-jenkins-pipeline)
+- [Authentication in Pipelines](https://jfrog.com/knowledge-base/how-to-use-access-tokens-in-your-ci-environment)
 ### Cool Features
 - https://jfrog.com/knowledge-base/artifactory-how-to-test-webhooks-in-artifactory-and-check-its-request-payload/
 - https://registry.terraform.io/providers/jfrog/artifactory/latest/docs
