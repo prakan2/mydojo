@@ -15,7 +15,7 @@
 ### Understand the concept of Build Promotion
 - [Best Practice - Repository Naming Convention](https://jfrog.com/whitepaper/best-practices-structuring-naming-artifactory-repositories/)
 - [Best Practice - Build Promotion](https://jfrog.com/knowledge-base/how-does-build-promotion-work/)
-### Understand Repositories
+### Working with Repositories
 #### Remote Repos
 - [Unlimited Access to Docker Hub](https://jfrog.com/blog/jfrog-docker-partnership-for-dockerhub/)
 #### Virtual Repos
