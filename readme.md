@@ -1,11 +1,11 @@
 # Dojo
 ## Creating your Testing Environment
-- create your testing instance: https://jfrog.com/de/start-free/#saas
+- create your testing instance: [here](https://jfrog.com/de/start-free/#saas)
 ## Preparing your Workbench
-- install JFrog CLI: https://jfrog.com/de/getcli/
-- install IDE Integration: https://www.jfrog.com/confluence/display/JFROG/IDE+Integration 
-- install Terraform: https://learn.hashicorp.com/tutorials/terraform/install-cli
-- install Docker: https://docs.docker.com/get-docker/ 
+- install [JFrog CLI](https://jfrog.com/de/getcli)
+- install [IDE Integration](https://www.jfrog.com/confluence/display/JFROG/IDE+Integration)
+- install [Terraform](https://learn.hashicorp.com/tutorials/terraform/install-cli)
+- install [Docker](https://docs.docker.com/get-docker)
 ## Configuring your Workbench (OPTIONAL)
 - configure JFrog CLI: jf config add | jf config use ([documentation](https://www.jfrog.com/confluence/display/CLI/JFrog+CLI#JFrogCLI-AddingandEditingConfiguredServers))
 - configure IDE Plugin: connect to your testing instance ([documentation](https://www.jfrog.com/confluence/display/JFROG/IDE+Integration))
