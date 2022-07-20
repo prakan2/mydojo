@@ -7,7 +7,7 @@
 - install Terraform: https://learn.hashicorp.com/tutorials/terraform/install-cli
 - install Docker: https://docs.docker.com/get-docker/ 
 ## Configuring your Workbench (OPTIONAL)
-- configure JFrog CLI: jf config add | jf config use
+- configure JFrog CLI: jf config add | jf config use ([documentation](https://www.jfrog.com/confluence/display/CLI/CLI+for+JFrog+Artifactory))
 - configure IDE Plugin: connect to your testing instance
 ## Working with the CLI
 - to be populated after the Dojo
