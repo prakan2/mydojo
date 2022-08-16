@@ -20,7 +20,7 @@ resource "xray_watch" "dojo-docker-remote" {
     type = "security"
   }
 
-  watch_recipients = ["spam@meinedomain.com"]
+  watch_recipients = [var.email_address]
 }
 
 resource "xray_watch" "dojo-docker-prod" {
@@ -45,5 +45,5 @@ resource "xray_watch" "dojo-docker-prod" {
     type = "security"
   }
 
-  watch_recipients = ["spam@meinedomain.com"]
+  watch_recipients = [var.email_address]
 }

@@ -14,3 +14,8 @@ variable "developer_pw" {
   type = string
   default = "MyV3ry$3cr3tP@$$w0rd"
 }
+#Please define an email address 
+variable "email_address" {
+  type = string
+  default = "myemail@mydomain.local"
+}
