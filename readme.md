@@ -10,7 +10,7 @@
 - configure JFrog CLI: jf config add | jf config use ([documentation](https://www.jfrog.com/confluence/display/CLI/JFrog+CLI#JFrogCLI-AddingandEditingConfiguredServers))
 - configure IDE Plugin: connect to your testing instance ([documentation](https://www.jfrog.com/confluence/display/JFROG/IDE+Integration))
 ## Working with the CLI
-- to be populated after the Dojo
+- [CLI working examples](https://github.com/fjagwitz/mydojo/blob/master/CLI%20usage%20example.sh)
 ## Aftermath (or Prepwork)
 ### Understand the concept of Build Promotion
 - [Best Practice - Repository Naming Convention](https://jfrog.com/whitepaper/best-practices-structuring-naming-artifactory-repositories/)
