@@ -9,7 +9,7 @@
 ## Configuring your Workbench
 - configure JFrog CLI: jf config add | jf config use ([documentation](https://www.jfrog.com/confluence/display/CLI/JFrog+CLI#JFrogCLI-AddingandEditingConfiguredServers))
 - configure IDE Plugin: connect to your testing instance ([documentation](https://www.jfrog.com/confluence/display/JFROG/IDE+Integration))
-- configure 
+- configure [variables.tf](https://github.com/fjagwitz/mydojo/blob/master/jpd-config/variables.tf) with your own values
 ## Working with the CLI
 - Read the [manual](https://www.jfrog.com/confluence/display/CLI/CLI+for+JFrog+Artifactory)
 - Test it out: [CLI working examples](https://github.com/fjagwitz/mydojo/blob/master/CLI%20usage%20example.sh)
