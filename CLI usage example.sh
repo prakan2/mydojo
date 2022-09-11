@@ -5,20 +5,20 @@ export CLICONF='jfrog-cli'
 export DOCKERCONF='~/.docker/config.json'
 export CI=true
 export DEPS='./mvn-app/'
-export JPD='dojo.jfrog.io'
-export PRJ='dojo/keycloak'
+export JPD='http://ec2-18-218-116-112.us-east-2.compute.amazonaws.com:8082/'
+export PRJ='nishup/keycloak'
 export SRCCTR='bitnami/keycloak'
 
 export JFROG_CLI_ENV_EXCLUDE="CLICRED;PATH;VSCODE*;*ASKPASS;*EXCLUDE"
-export JFROG_CLI_BUILD_NAME="dojo-docker"
-export JFROG_CLI_BUILD_NUMBER="16"
-export DOCKERTAG='16'
+export JFROG_CLI_BUILD_NAME="nishup-docker"
+export JFROG_CLI_BUILD_NUMBER="1"
+export DOCKERTAG='1'
 
-export DEVREPO="dojo-dev-docker"
-export TESTREPO="dojo-test-docker"
-export QAREPO="dojo-qa-docker"
-export PRODREPO="dojo-prod-docker"
-export RIPREPO="dojo-rip-docker"
+export DEVREPO="nishup-dev-docker"
+export TESTREPO="nishup-test-docker"
+export QAREPO="nishup-qa-docker"
+export PRODREPO="nishup-prod-docker"
+export RIPREPO="nishup-rip-docker"
 
 jf config add $CLICONF \
 --url https://$JPD \
