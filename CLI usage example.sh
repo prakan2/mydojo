@@ -1,5 +1,5 @@
 export CLIUSER=$(cat ./jpd-config/users.tf | grep dojo-developer -A2 | grep name | awk -F\" '{print $2}')
-export CLICRED=$(cat ./jpd-config/credentials.tf | grep developer_pw -A2 | grep default | awk -F\" '{print $2}')
+export CLICRED=$(cat ./jpd-config/variables.tf | grep developer_pw -A2 | grep default | awk -F\" '{print $2}')
 
 export CLICONF='jfrog-cli'
 export DOCKERCONF='~/.docker/config.json'
